@@ -1,0 +1,71 @@
+body{
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+
+
+.profile-pic{
+    height: 500px;
+    width: auto;
+    border: 8px solid white;
+}
+.home-page{
+    height: 100vh;
+    width: 100%;
+}
+
+.info-card{
+    position:absolute;
+    left:20%;
+    top: 20%;
+    right:20%;
+    background-color: white;
+    padding: 100px;
+}
+
+.info-card h1{
+
+    font-size: 70px;
+    text-align: center;
+    color: #453835;
+}
+
+.nav-link{
+    color: #453835;
+    font-size: 25px;
+}
+
+
+
+.typewriter{
+    text-align: center;
+    display: inline-block;
+  	overflow: hidden;
+ 	animation: typing 3s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    
+    border-right: 4px solid black;
+    box-sizing: border-box;
+ 
+
+}
+
+@keyframes typing {
+    from { 
+        width: 10% 
+    }
+    to { 
+        width: 80% 
+    }
+}
+
+@keyframes blink-caret {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #D5C3A9; 
+    }
+}
