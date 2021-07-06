@@ -69,3 +69,19 @@ body{
         border-color: #D5C3A9; 
     }
 }
+
+.webDev, .ui_ux, .pr_management, .other {
+    color: #FFFFFF;
+    font-family: QucikSand;
+    font-weight: bold;
+    padding: 0.5vh;
+    font-size: 12px;
+    text-align: center;
+    line-height: 17px !important;
+    border-radius: 25px;
+    transition-duration: 0.4s !important;
+    cursor: pointer !important;
+    float: left;
+    margin-top: 0.5vh;
+    margin-left: 0.1vw;
+}
