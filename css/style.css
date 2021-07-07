@@ -104,6 +104,7 @@ text-align: center;
     border-top: transparent;
     border-width: 4px;
     border-color: black;
+    padding: 10px 10px;
 }
 .webDev {
     background: #626B63;
@@ -145,4 +146,23 @@ text-align: center;
 
 .project-language{
     color: #FF914D;
+}
+
+/************* Education section ******************/
+.course-code{
+    background-color:#ccc3b8 ;
+    color: black;
+}
+.mark-badge{
+
+    font-weight: 700;
+    border-radius: 50%;
+    font-size: 25px;
+
+}
+.study-header{
+    display: inline-block;
+
+    border-bottom:4px solid black;
+    padding: 10px 10px;
 }
