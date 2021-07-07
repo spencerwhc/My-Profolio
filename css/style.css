@@ -1,32 +1,55 @@
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
-
-
-
-.profile-pic{
-    height: 500px;
-    width: auto;
-    border: 8px solid white;
-}
-.home-page{
+.background-left{
+    background-color: #D5C3A9;
+    color:transparent;
+    width: 100vh;
     height: 100vh;
+}
+.background-right{
+    background-color: #FDFBFB;
+    color:transparent;
+    width: 100vh;
+    height: 100vh;
+}
+
+  
+  /* inViewport animation transition*/
+  
+  [data-inviewport="scale-in"] { 
+    transition: 1s;
+    transform: scale(0.1);
+  }
+  [data-inviewport="scale-in"].is-inViewport { 
+    transform: scale(1);
+  }
+  
+
+
+/************* Home section ******************/
+.home-page{
+    display: relative;
+    height: 100%;
     width: 100%;
 }
 
 .info-card{
+    font-family: 'Playfair Display', serif;
     position:absolute;
     left:20%;
     top: 20%;
     right:20%;
-    background-color: white;
+    background-color: white ;
+    opacity: 90%;
     padding: 100px;
+    border: 6px double black;
 }
 
 .info-card h1{
-
+ 
     font-size: 70px;
     text-align: center;
     color: #453835;
@@ -70,6 +93,32 @@ body{
     }
 }
 
+/************* About section ******************/
+.center{
+text-align: center;
+}
+.about-header, .project-header{
+   
+    display: inline-block;
+    border-style: solid;
+    border-top: transparent;
+    border-width: 4px;
+    border-color: black;
+}
+.webDev {
+    background: #626B63;
+    border: 1px solid #626B63;
+}
+
+.ui_ux {
+    background: #FEB68E;
+    border: 1px solid #FEB68E;
+}
+
+.other {
+    background: #FFD9A4;
+    border: 1px solid #FFD9A4;
+}
 .webDev, .ui_ux, .pr_management, .other {
     color: #FFFFFF;
     font-family: QucikSand;
@@ -84,4 +133,16 @@ body{
     float: left;
     margin-top: 0.5vh;
     margin-left: 0.1vw;
+}
+
+/************* Project section ******************/
+#project{
+    background-color:#D5C3A9 ;
+}
+.project-header{
+    margin-bottom: 40px;
+}
+
+.project-language{
+    color: #FF914D;
 }
