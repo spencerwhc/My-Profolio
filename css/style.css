@@ -2,7 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
-
 .background-left{
     background-color: #D5C3A9;
     color:transparent;
@@ -30,12 +29,12 @@ body{
 
 
 /************* Home section ******************/
+
 .home-page{
     display: relative;
     height: 100%;
     width: 100%;
 }
-
 .info-card{
     font-family: 'Playfair Display', serif;
     position:absolute;
@@ -43,7 +42,7 @@ body{
     top: 20%;
     right:20%;
     background-color: white ;
-    opacity: 90%;
+    opacity: 50%;
     padding: 100px;
     border: 6px double black;
 }
@@ -80,7 +79,7 @@ body{
         width: 10% 
     }
     to { 
-        width: 80% 
+        width: 100% 
     }
 }
 
@@ -97,10 +96,10 @@ body{
 .center{
 text-align: center;
 }
-.about-header, .project-header{
+.about-header, .project-header, .contact-header{
    
     display: inline-block;
-    border-style: solid;
+    border-style: double;
     border-top: transparent;
     border-width: 4px;
     border-color: black;
@@ -137,8 +136,12 @@ text-align: center;
 }
 
 /************* Project section ******************/
-#project{
-    background-color:#D5C3A9 ;
+#project, #contact{
+    background: linear-gradient(45deg, #D5C3A9 0%, #FDFBFB 100%);
+}
+.project-card{
+   height: 35rem;
+    margin-bottom: 30px;
 }
 .project-header{
     margin-bottom: 40px;
@@ -165,4 +168,35 @@ text-align: center;
 
     border-bottom:4px solid black;
     padding: 10px 10px;
+}
+
+#study{
+margin-bottom: 3rem;
+}
+
+/************* Contact section ******************/
+.photo-design{
+
+    background-color: white;
+
+    padding: 2%;
+    margin: 2rem;
+}
+.photo-me{
+    border:1px solid black;
+}
+
+.contact-form{
+    padding: 2%;
+    margin: 2rem;
+}
+
+.icons{
+    width: 10px;
+    margin-right: 1rem;
+    
+}
+
+.contact-detail{
+   margin-left: 2rem;
 }
