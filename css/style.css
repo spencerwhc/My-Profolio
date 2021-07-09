@@ -1,8 +1,39 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    
+font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    background:linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+
+#about, #project,#education{
+    padding-top: 80px;
+}
+.navbar-style{
+    background: #fefaf6;
+    background:linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    padding: 1%;
 
 }
+
+li{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+
+}
+.nav-style{
+    color: #453835;
+    font-size: 18px;
+    padding-left: 11vw;
+
+}
+
 
 .background-left{
     background-color: #D5C3A9;
@@ -56,10 +87,6 @@ body{
     color: #453835;
 }
 
-.nav-link{
-    color: #453835;
-    font-size: 25px;
-}
 
 
 
@@ -95,46 +122,88 @@ body{
 }
 
 /************* About section ******************/
+#about{
+    background: #fefaf6;
+}
 .center{
 text-align: center;
+}
+.intro-image{
+    width: 300px;
+    margin: auto auto;
+}
+.intro-content{
+    text-align: center;
+ 
+}
+.about-name{
+    margin-top: 1rem;
+}
+
+.skill-header{
+    font-family: 'Playfair Display', serif;
+    color: #453835;
+    font-size: 40px;
+    margin-top: 2rem;
 }
 .about-header, .project-header, .contact-header{
    
     display: inline-block;
     border-style: double;
-    border-top: transparent;
+
     border-width: 4px;
     border-color: black;
     padding: 10px 10px;
 }
+.web-dev,.ux,.others{
+    margin: 80px;
+}
 .webDev {
-    background: #626B63;
-    border: 1px solid #626B63;
+    background: #E6DDC6;
+    border: 1px solid #E6DDC6;
+ 
 }
 
 .ui_ux {
-    background: #FEB68E;
-    border: 1px solid #FEB68E;
+    background: #C2B8A3;
+    border: 1px solid #C2B8A3;
+    margin-top: 10%;
 }
 
 .other {
-    background: #FFD9A4;
-    border: 1px solid #FFD9A4;
+    background: #A19882;
+    border: 1px solid #A19882;
+    margin-top: 3%;
 }
-.webDev, .ui_ux, .pr_management, .other {
-    color: #FFFFFF;
-    font-family: QucikSand;
-    font-weight: bold;
-    padding: 0.5vh;
-    font-size: 12px;
+.webDev, .ui_ux, .other {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    padding: 1vh;
+    font-size: 18px;
     text-align: center;
     line-height: 17px !important;
     border-radius: 25px;
     transition-duration: 0.4s !important;
     cursor: pointer !important;
     float: left;
-    margin-top: 0.5vh;
-    margin-left: 0.1vw;
+    margin-top: 0.8vh;
+    margin-left: 0.5vw;
+}
+ .ui_ux {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    padding: 1vh;
+    font-size: 18px;
+    text-align: center;
+    line-height: 17px !important;
+    border-radius: 25px;
+    transition-duration: 0.4s !important;
+    cursor: pointer !important;
+    float: right;
+    margin-top: 0.8vh;
+    margin-left: 0.5vw;
 }
 
 /************* Project section ******************/

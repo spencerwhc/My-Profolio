@@ -33,299 +33,284 @@
 
     <!-- animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
 <body>
-    <!------------------- Background ------------------------->
-    <div class="container-fluid background-style">
+    <header id="home" class="fixed-top">
+        <div style="display: flex;" class="navbar-style">
+
+            <ul>
+                <li>
+                    <a class="nav-style" href="#home">Home </a>
+                </li>
+                <li>
+                    <a class="nav-style" href="#about">About </a>
+                </li>
+                <li>
+                    <a class="nav-style" href="#project">Project </a>
+                </li>
+                <li>
+                    <a class="nav-style" href="#education">Education </a>
+                </li>
+                <li>
+                    <a class="nav-style" href="#contact">Contact</a>
+                </li>
+
+
+
+        </div>
+
+    </header>
+    <!------------------- Home ------------------------->
+    <div class="container-fluid">
         <div class="row">
             <div class="col background-left">
-                left
+
             </div>
             <div class="col background-right">
                 right
             </div>
         </div>
     </div>
-    <!------------------- Home ------------------------->
+
     <section id="home">
         <div class="container-fluid background-style">
 
             <div class="info-card animate__animated animate__fadeIn">
-                <h1 class="typewriter">Angel Wong :)</h1>
+                <h1 class="typewriter">Hi, I'm Angel:)</h1>
 
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Home |</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#project">Project |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#education">Education |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Contact</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </section>
 
     <!--------------------- About  -------------------->
+    <section id="about">
+        <div class="container-fluid ">
+            <!--------------------- Introduction  -------------------->
+            <div class="introduction">
+                <div class="row">
+                    <!------  Image  ------->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aos-init aos-animate">
+                        <div class="center intro-image">
 
-    <div id="about" style="background-color: white">
-        <div class="center">
-            <h1 class="about-header" data-inviewport="scale-in">About</h1>
+                            <img alt="" class="img-fluid" src="./css/round pic.png"
+                                style="border-radius: 50%!important;box-shadow:0px 6px 5px rgba(0, 0, 0, 0.5);margin-top: -2vh">
+                            <div class="about-name">
+                                <h2>Angel Wong</h2>
+                            </div>
+                            <div class="lead" style="color: #453835">
+                                <strong>Master
+                                    of Information
+                                    Technology</strong>
+                            </div>
+                            <span class="badge bg-warning text-dark">Software Development</span>
+
+                            <br>
+                            <span>
+                                <a type="button" class="btn "
+                                    href="https://www.linkedin.com/in/ho-sze-angel-wong-0954a613a/" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
+                                <a type="button" class="btn" href="https://github.com/spencerwhc" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
+
+                            </span>
+                        </div>
+
+                    </div>
+                    <!------  intro content  ------->
+                    <div data-aos="fade-left" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aos-init aos-animate ">
+                        <div class="row">
+                            <div class="col-12"
+                                style="font-style: normal;line-height:20px;color: #444444;font-size: 16px;">
+
+                                Nice to meet you here, thank you for visiting my website <i
+                                    class="far fa-laugh-beam"></i>.
+                                <br><br>
+                                I am currently studying in QUT, majoring in software development. I like to use my spare
+                                time on working on some pet projects
+                                related to
+                                website and mobile application development.
+                                <br><br>
+                                Passionate about how technology can help make people’s life easier and better . Excited
+                                to learn
+                                new things and tackle the problems that arise. During the study and working on projects,
+                                I found
+                                my passion in develop intuitive UX, dynamic website, code efficient, object oriented
+                                programming
+                                and software development lifecycle.
+                                <br><br>
+                                I am a confident speaker who are excellent in verbal communication and interpersonal
+                                skill.I
+                                enjoys working closely with others yet able to work independently without supervision.
+                                As well
+                                as being an extremely focused individual who is dedicated and self-motivated on
+                                everything I do.
+                                <br><br>
+                                I have been awarded for my excellent academic performance through QUT Science and
+                                Engineering
+                                (SEF) International Merit Scholarship and Griffith Award for Academic Excellence in 2017
+                                and
+                                2018.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--------------------- My Skills  -------------------->
+            <div class="skills" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="center">
+                    <h2 class="skill-header">My Skills</h2>
+                </div>
+                <!------- Web Development  ------->
+                <div class="row web-dev">
+                    <div class="col-6 center">
+
+                        <i class="fas fa-laptop-code fa-7x" style="color: #7D5A50;"></i>
+                        <h3 style="color: #7D5A50;">Web Development</h3>
+                    </div>
+                    <div class="col-6">
+                        <div class="webDev">
+                            JavaScript
+                        </div>
+                        <div class="webDev">
+                            BootStrap
+                        </div>
+                        <div class="webDev">
+                            JQuery
+                        </div>
+                        <div class="webDev">
+                            HTML
+                        </div>
+                        <div class="webDev">
+                            CSS
+                        </div>
+
+                        <div class="webDev">
+                            React
+                        </div>
+
+                        <div class="webDev">
+                            Python
+                        </div>
+                        <div class="webDev">
+                            NodeJS
+                        </div>
+                        <div class="webDev">
+                            Git
+                        </div>
+                        <div class="webDev">
+                            C#
+                        </div>
+                        <div class="webDev">
+                            SQLite
+                        </div>
+                        <div class="webDev">
+                            JSON
+                        </div>
+                    </div>
+                </div>
+                <!------- UX ------->
+                <div class="row ux" >
+                    <div class="col-6 center ">
+
+                        <div class="ui_ux">
+                            Canva
+                        </div>
+                        <div class="ui_ux">
+                            Balsamiq
+                        </div>
+
+                        <div class="ui_ux">
+                            Visual
+                            Paradigm
+                        </div>
+                        <div class="ui_ux">
+                            Sketch
+                        </div>
+                        <div class="ui_ux">
+                            Wireframes
+                        </div>
+                        <div class="ui_ux">
+                            Prototypes
+                        </div>
+                        <div class="ui_ux">
+                            Affinity Diagram
+                        </div>
+                        <div class="ui_ux">
+                            Card Sorting
+                        </div>
+
+                        <div class="ui_ux">
+                            User Test
+
+                        </div>
+                        <div class="ui_ux">
+                            Research
+                        </div>
+                        <div class="ui_ux">
+                            Personas
+                        </div>
+                        <div class="ui_ux">
+                            Journey Map
+                        </div>
+
+
+                    </div>
+                    <div class="col-6 center">
+                        <i class="fas fa-user-edit fa-7x" style="color: #7D5A50;"></i>
+                        <h3 style="color:#7D5A50;">User Experience Design</h3>
+                    </div>
+                </div>
+                <!------- Others ------->
+                <div class="row others" >
+                    <div class="col-6 center">
+
+                        <i class="fas fa-tools fa-7x" style="color:#7D5A50;"></i>
+                        <h3 style="color: #7D5A50;">Others / Language</h3>
+                    </div>
+                    <div class="col-6">
+                        <div class="other">
+                            English
+                        </div>
+                        <div class="other">
+                            Cantonese
+                        </div>
+                        <div class="other">
+                            Mandarin
+                        </div>
+                        <div class="other">
+                            Team Work
+                        </div>
+                        <div class="other">
+                            Presentation
+                        </div>
+                        <div class="other">
+                            Research
+                        </div>
+
+                        <div class="other">
+                            Hospitality
+                        </div>
+                        <div class="other">
+                            Customer Service
+                        </div>
+                        <div class="other">
+                            Problem Solving
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <br>
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                    <!--left-->
-                    <div class="container">
-                <div class="row ">
-                    <div class="col-4">
-                        <!--                Image                   -->
-
-                        <img alt="" class="img-fluid" src="./css/round pic.png"
-                            style="border-radius: 50%!important;box-shadow:0px 6px 5px rgba(0, 0, 0, 0.5);margin-top: -2vh">
-                    </div>
-                    <div class="col-8">
-                        <!--                Other stuff             -->
-                        <div class="about-name">
-                            <h2>Angel Wong</h2>
-                        </div>
-                        <div class="lead" style="color: #453835">
-                            <strong>Master
-                                of Information
-                                Technology</strong>
-                        </div>
-                        <span class="badge bg-warning text-dark">Software Development</span>
-
-                        <br>
-                        <span>
-                            <a type="button" class="btn "
-                                href="https://www.linkedin.com/in/ho-sze-angel-wong-0954a613a/" target="_blank"
-                                rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
-                            <a type="button" class="btn" href="https://github.com/spencerwhc" target="_blank"
-                                rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
-
-                        </span>
-
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-12" style="font-style: normal;line-height:18px;color: #444444;font-size: 14px;">
-
-                        Nice to meet you here, thank you for visiting my website.
-                        <br><br>
-                        I am a current master's student of QUT Queensland University of Technology in Information
-                        Technology, majoring in software development. Currently working on some pet projects related to
-                        website and mobile application development.
-                        <br><br>
-                        Passionate about how technology can help make people’s life easier and better . Excited to learn
-                        new things and tackle the problems that arise. During the study and working on projects, I found
-                        my passion in develop intuitive UX, dynamic website, code efficient, object oriented programming
-                        and software development lifecycle.
-                        <br><br>
-                        I am a confident speaker who are excellent in verbal communication and interpersonal skill.I
-                        enjoys working closely with others yet able to work independently without supervision. As well
-                        as being an extremely focused individual who is dedicated and self-motivated on everything I do.
-                        <br><br>
-                        I have been awarded for my excellent academic performance through QUT Science and Engineering
-                        (SEF) International Merit Scholarship and Griffith Award for Academic Excellence in 2017 and
-                        2018.
-                    </div>
-                </div>
-
-            </div>
-                <br>
-
-
-                <br>
-            </div>
-
-
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aos-init aos-animate" data-aos="fade-left"
-                data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                <!--right-->
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-8 h2">
-                            My Skills
-                        </div>
-                        <div></div>
-                    </div>
-                    <br>
-                    <div class="container" style="overflow-x: hidden;">
-                        <!--web dev-->
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12"
-                                style="color: #555555;font-size: 14px;padding: 0">
-                                Web Development
-
-                            </div>
-                            <br>
-                            <br>
-                            <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12" style="padding: 0!important;">
-
-                                <div class="webDev">
-                                    JavaScript
-                                </div>
-                                <div class="webDev">
-                                    BootStrap
-                                </div>
-                                <div class="webDev">
-                                    JQuery
-                                </div>
-                                <div class="webDev">
-                                    HTML
-                                </div>
-                                <div class="webDev">
-                                    CSS
-                                </div>
-
-                                <div class="webDev">
-                                    React
-                                </div>
-
-                                <div class="webDev">
-                                    Python
-                                </div>
-                                <div class="webDev">
-                                    NodeJS
-                                </div>
-                                <div class="webDev">
-                                    Git
-                                </div>
-                                <div class="webDev">
-                                    C#
-                                </div>
-                                <div class="webDev">
-                                    SQLite
-                                </div>
-                                <div class="webDev">
-                                    JSON
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <hr class="line">
-
-                        <!--UI/UX-->
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12"
-                                style="color: #555555;font-size: 14px;padding: 0">
-                                UX
-
-                            </div>
-                            <br>
-                            <br>
-                            <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12" style="padding: 0!important;">
+    </section>
 
 
 
-
-
-                                <div class="ui_ux">
-                                    Canva
-                                </div>
-                                <div class="ui_ux">
-                                    Balsamiq
-                                </div>
-
-                                <div class="ui_ux">
-                                    Visual
-                                    Paradigm
-                                </div>
-                                <div class="ui_ux">
-                                    Sketch
-                                </div>
-                                <div class="ui_ux">
-                                    Wireframes
-                                </div>
-                                <div class="ui_ux">
-                                    Prototypes
-                                </div>
-                                <div class="ui_ux">
-                                    Affinity Diagram
-                                </div>
-                                <div class="ui_ux">
-                                    Card Sorting
-                                </div>
-
-                                <div class="ui_ux">
-                                    User Test
-
-                                </div>
-                                <div class="ui_ux">
-                                    Research
-                                </div>
-                                <div class="ui_ux">
-                                    Personas
-                                </div>
-                                <div class="ui_ux">
-                                    Journey Map
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <hr class="line">
-
-                        <!--Other-->
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12"
-                                style="color: #555555;font-size: 14px;padding:0">
-                                Other
-                            </div>
-                            <br>
-                            <br>
-                            <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12" style="padding: 0!important;">
-
-                                <div class="other">
-                                    Team Work
-                                </div>
-                                <div class="other">
-                                    Presentation
-                                </div>
-                                <div class="other">
-                                    Research
-                                </div>
-
-                                <div class="other">
-                                    Hospitality
-                                </div>
-                                <div class="other">
-                                    Customer Service
-                                </div>
-                                <div class="other">
-                                    Problem Solving
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-        </div>
-    </div>
-    <br>
-    </div>
     <!--------------------- Project  -------------------->
     <section id="project">
         <div class="center">
@@ -497,241 +482,240 @@
     </section>
     <!--------------------- Education  -------------------->
     <section id="education">
-        <div id="education" style="margin-top:5px;">
-            <div class="center">
-                <h1 class="project-header" data-inviewport="scale-in"> <i class="fas fa-book"></i> Education
-                </h1>
-            </div>
-            <div class="container-fluid">
 
-                <div class="row mobile-education" style="margin-top:20px;">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 aos-init" data-aos="fade-right"
-                        data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out"
-                        data-aos-offset="200">
-                        <!--------------------------left------------------------------->
-                        <!--Queensland University of Technology-->
-                        <div class="row">
-                            <div class="col-3" style="margin-left: 0!important;">
-                                <!--img-->
-                                <img alt="" class="img-fluid" src="./css/qut icon.png">
+        <div class="center">
+            <h1 class="project-header" data-inviewport="scale-in"> <i class="fas fa-book"></i> Education
+            </h1>
+        </div>
+        <div class="container-fluid">
+
+            <div class="row mobile-education" style="margin-top:20px;">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 aos-init" data-aos="fade-right" data-aos-delay="200"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-offset="200">
+                    <!--------------------------left------------------------------->
+                    <!--Queensland University of Technology-->
+                    <div class="row">
+                        <div class="col-3" style="margin-left: 0!important;">
+                            <!--img-->
+                            <img alt="" class="img-fluid" src="./css/qut icon.png">
+                        </div>
+                        <div class="col-9" style="padding: 0!important;">
+                            <!-- name of institute-->
+                            <div class="h6" style="color: #000000">
+                                Queensland University of
+                                Technology
                             </div>
-                            <div class="col-9" style="padding: 0!important;">
-                                <!-- name of institute-->
-                                <div class="h6" style="color: #000000">
-                                    Queensland University of
-                                    Technology
-                                </div>
-                                <div class="p" style="color:  #ffc107">
-                                    Master of Information Technology
-                                </div>
-                                <div class="p" style="color:  #ffc107">
-                                    Majors: Software Development
-                                </div>
-                                <!--info-->
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="p" style="color:  #ffc107">
+                                Master of Information Technology
+                            </div>
+                            <div class="p" style="color:  #ffc107">
+                                Majors: Software Development
+                            </div>
+                            <!--info-->
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <br>
+                                    <div
+                                        style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
+                                        <img alt="" class="icon" src="resources/Icons/location.png">&nbsp;
+                                        Queensland, Australia
                                         <br>
-                                        <div
-                                            style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
-                                            <img alt="" class="icon" src="resources/Icons/location.png">&nbsp;
-                                            Queensland, Australia
-                                            <br>
-                                        </div>
-
                                     </div>
 
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <br>
-                                        <div
-                                            style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
-                                            <img alt="" class="icon" src="resources/Icons/calendar.png">&nbsp;
-                                            2020 - 2022
-                                        </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <br>
+                                    <div
+                                        style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
+                                        <img alt="" class="icon" src="resources/Icons/calendar.png">&nbsp;
+                                        2020 - 2022
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <br>
+                                    <div
+                                        style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
+                                        <img alt="" class="icon" src="resources/Icons/scorecard.png">
+                                        &nbsp;CGPA: 6.47 / 7
+                                        (till-date)
                                     </div>
                                 </div>
 
-
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <br>
-                                        <div
-                                            style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
-                                            <img alt="" class="icon" src="resources/Icons/scorecard.png">
-                                            &nbsp;CGPA: 6.47 / 7
-                                            (till-date)
-                                        </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <br>
+                                    <div
+                                        style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
+                                        <img alt="" class="icon" src="resources/Icons/internet.png">&nbsp;
+                                        <a href="https://www.qut.edu.au/" style="text-decoration: none;color: inherit;"
+                                            target="_blank">
+                                            www.qut.edu.au</a>
                                     </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <br>
-                                        <div
-                                            style="float:left;font-style: normal;font-weight: normal;font-size: 16px;color: #555555;display: flex;align-items: center">
-                                            <img alt="" class="icon" src="resources/Icons/internet.png">&nbsp;
-                                            <a href="https://www.qut.edu.au/"
-                                                style="text-decoration: none;color: inherit;" target="_blank">
-                                                www.qut.edu.au</a>
-                                        </div>
-                                    </div>
-                                    <hr>
                                 </div>
-                                <br>
+                                <hr>
+                            </div>
+                            <br>
 
-                                <hr style="border: 0.5px solid #ffc107;
+                            <hr style="border: 0.5px solid #ffc107;
                                             left:0;
                                          ">
 
 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-3">
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" style="font-weight: normal">
-                                QUT is one of the top
-                                most Universities of
-                                Australia, located in the
-                                heart of the
-                                third largest city,
-                                Brisbane. QUT delivers real
-                                world outcomes for students
-                                through its
-                                provision of leading
-                                academics and
-                                state-of-the-art teaching
-                                facilities. QUT provides
-                                opportunities to gain
-                                practical experience and is
-                                very experienced in
-                                imparting quality
-                                education with world class
-                                faculties.
-                            </div>
-
-                        </div>
-                        <br>
-
-                    </div>
-                    <!--------------------------Right------------------------------->
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <!-- Academic Histroy -->
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN552</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>System Analysis and Design</h5>
-                                <p><strong>Distintion 81</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN554</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Databases</h5>
-                                <p><strong>High Distintion 95</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN556</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Object Oriented Programming</h5>
-                                <p><strong>High Distintion 94</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN557</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Rapid Web Development</h5>
-                                <p><strong>Distintion 81</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN551</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Data Exploration and Mining</h5>
-                                <p><strong>Distintion 78</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN591</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Principles of User Experience</h5>
-                                <p><strong>High Distintion 91</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN563</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Object Oriented Design</h5>
-                                <p><strong>Distintion 80</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <h4><span class="badge course-code">IFN666</span></h4>
-                            </div>
-                            <div class="col-lg-8">
-                                <h5>Web and Mobile Application Development</h5>
-                                <p><strong>High Distintion 91</strong></p>
-
-                            </div>
-                            <div class="col-lg-2">
-                                <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
-                            </div>
-
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-3">
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" style="font-weight: normal">
+                            QUT is one of the top
+                            most Universities of
+                            Australia, located in the
+                            heart of the
+                            third largest city,
+                            Brisbane. QUT delivers real
+                            world outcomes for students
+                            through its
+                            provision of leading
+                            academics and
+                            state-of-the-art teaching
+                            facilities. QUT provides
+                            opportunities to gain
+                            practical experience and is
+                            very experienced in
+                            imparting quality
+                            education with world class
+                            faculties.
+                        </div>
 
+                    </div>
+                    <br>
+
+                </div>
+                <!--------------------------Right------------------------------->
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <!-- Academic Histroy -->
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN552</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>System Analysis and Design</h5>
+                            <p><strong>Distintion 81</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN554</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Databases</h5>
+                            <p><strong>High Distintion 95</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN556</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Object Oriented Programming</h5>
+                            <p><strong>High Distintion 94</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN557</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Rapid Web Development</h5>
+                            <p><strong>Distintion 81</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN551</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Data Exploration and Mining</h5>
+                            <p><strong>Distintion 78</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN591</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Principles of User Experience</h5>
+                            <p><strong>High Distintion 91</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN563</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Object Oriented Design</h5>
+                            <p><strong>Distintion 80</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">6</span></h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h4><span class="badge course-code">IFN666</span></h4>
+                        </div>
+                        <div class="col-lg-8">
+                            <h5>Web and Mobile Application Development</h5>
+                            <p><strong>High Distintion 91</strong></p>
+
+                        </div>
+                        <div class="col-lg-2">
+                            <h1><span class="badge bg-warning text-dark  mark-badge">7</span></h1>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
+
         </div>
+
     </section>
     <!--------------------- Online study  -------------------->
     <section id="study">
@@ -806,13 +790,15 @@
     </section>
 
     <!--------------------- Contact -------------------->
+
     <section id="contact">
+        <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+            <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+
         <div class="container-fluid contact-style">
 
-            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
-                xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-                <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-            </svg>
 
             <div class="center">
                 <h1 class="contact-header" data-inviewport="scale-in"> Get In Touch</h1>
@@ -888,6 +874,10 @@
         ELs_inViewport.forEach(EL => {
             Obs.observe(EL, obsOptions);
         });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
