@@ -137,20 +137,20 @@ text-align: center;
 }
 .webDev {
     background: #fcb9b1;
-    border: 1px solid #fcb9b1;
+    border: 1px solid black;
     color: white;
  
 }
 
 .ui_ux {
     background: #f6fdee;
-    border: 1px solid #f6fdee;
+    border: 1px solid black;
     margin-top: 10%;
 }
 
 .other {
     background: #ffddaf;
-    border: 1px solid #ffddaf;
+    border: 1px solid black;
     margin-top: 3%;
 }
 .webDev, .ui_ux, .other {
