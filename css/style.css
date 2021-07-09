@@ -2,22 +2,14 @@ body{
 font-family: 'Quicksand', sans-serif;
 }
 
-h1 {
-    font-size: 72px;
-    background:linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
 
 
 #about, #project,#education{
     padding-top: 80px;
 }
 .navbar-style{
-    background: #fefaf6;
-    background:linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
-    padding: 1%;
+    background: #ffddaf;
+   padding-top:1rem;
 
 }
 
@@ -29,24 +21,11 @@ li{
 }
 .nav-style{
     color: #453835;
-    font-size: 18px;
+    font-size: 1.3vw;
     padding-left: 11vw;
 
 }
 
-
-.background-left{
-    background-color: #D5C3A9;
-    color:transparent;
-    width: 100vh;
-    height: 100vh;
-}
-.background-right{
-    background-color: #FDFBFB;
-    color:transparent;
-    width: 100vh;
-    height: 100vh;
-}
 
   
   /* inViewport animation transition*/
@@ -62,41 +41,38 @@ li{
 
 
 /************* Home section ******************/
-
-.home-page{
-    display: relative;
-    height: 100%;
-    width: 100%;
+#image{
+    background-image: url(https://lh5.googleusercontent.com/proxy/RUP6EiOJGOvnPp0tfWZe6OTceuI_6sUDTCIlnmQYHxSRJQqP94CdaGDOxdfPvFiScMIMxQMwTMuA85KFwygaCOwjLDWUBjkC2PJ-eIcNcCVFZIe_o9Pi7njIwvjy8G1--ae3hbzqHsOlb34E5z_Zg0SfUhFEmHYgI9PnCw=w3840-h2160-p-k-no-nd-mv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: static;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
 }
-.info-card{
-    font-family: 'Playfair Display', serif;
-    position:absolute;
-    left:20%;
-    top: 20%;
-    right:20%;
-    background-color: white ;
-    opacity: 50%;
-    padding: 100px;
-    border: 6px double black;
-}
+.greating{
 
-.info-card h1{
- 
-    font-size: 70px;
     text-align: center;
-    color: #453835;
+    padding-top: 20%;
+
 }
+.greating h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    background:linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
-
+}
 
 
 .typewriter{
     text-align: center;
     display: inline-block;
   	overflow: hidden;
- 	animation: typing 3s steps(30, end), blink .75s step-end infinite;
+ 	animation: typing 2s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    
+
     border-right: 4px solid black;
     box-sizing: border-box;
  
@@ -105,7 +81,7 @@ li{
 
 @keyframes typing {
     from { 
-        width: 10% 
+        width: 0% 
     }
     to { 
         width: 100% 
@@ -122,8 +98,10 @@ li{
 }
 
 /************* About section ******************/
-#about{
-    background: #fefaf6;
+#about,#education,#study{
+    background: rgba(255,221,175,.3)
+
+    
 }
 .center{
 text-align: center;
@@ -132,19 +110,18 @@ text-align: center;
     width: 300px;
     margin: auto auto;
 }
-.intro-content{
-    text-align: center;
- 
-}
+
 .about-name{
     margin-top: 1rem;
 }
 
 .skill-header{
     font-family: 'Playfair Display', serif;
+
     color: #453835;
     font-size: 40px;
     margin-top: 2rem;
+    
 }
 .about-header, .project-header, .contact-header{
    
@@ -159,20 +136,21 @@ text-align: center;
     margin: 80px;
 }
 .webDev {
-    background: #E6DDC6;
-    border: 1px solid #E6DDC6;
+    background: #fcb9b1;
+    border: 1px solid #fcb9b1;
+    color: white;
  
 }
 
 .ui_ux {
-    background: #C2B8A3;
-    border: 1px solid #C2B8A3;
+    background: #f6fdee;
+    border: 1px solid #f6fdee;
     margin-top: 10%;
 }
 
 .other {
-    background: #A19882;
-    border: 1px solid #A19882;
+    background: #ffddaf;
+    border: 1px solid #ffddaf;
     margin-top: 3%;
 }
 .webDev, .ui_ux, .other {
@@ -208,8 +186,7 @@ text-align: center;
 
 /************* Project section ******************/
 #project, #contact{
-    background: linear-gradient(45deg, #D5C3A9 0%, #FDFBFB 100%);
-}
+    background: rgba(255,221,175,.6)}
 .project-card{
    height: 35rem;
     margin-bottom: 30px;
@@ -224,7 +201,7 @@ text-align: center;
 
 /************* Education section ******************/
 .course-code{
-    background-color:#ccc3b8 ;
+    background-color:#FECB89 ;
     color: black;
 }
 .mark-badge{
